@@ -1,0 +1,15 @@
+/* * mobile device responsive here */
+@media screen and (max-width:576px) {
+    .nav-bar{
+        /* max-width: 440px; */
+        padding:1rem 1.25rem;
+        justify-content: space-between;
+    }
+    .nav-menu{
+        display: block;
+    }
+    .ul-container, .nav-btn{
+        display: none;
+    }
+    
+}
