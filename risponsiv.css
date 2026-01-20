@@ -1,15 +1,57 @@
 /* * mobile device responsive here */
 @media screen and (max-width:576px) {
-    .nav-bar{
+
+    /* responsive nav section  */
+    .nav-bar {
         /* max-width: 440px; */
-        padding:1rem 1.25rem;
+        padding: 1rem 1.25rem;
         justify-content: space-between;
+
+
     }
-    .nav-menu{
+
+    .nav-menu {
         display: block;
     }
-    .ul-container, .nav-btn{
+
+    .ul-container,
+    .nav-btn {
         display: none;
     }
-    
+
+
+    /*  TODO: banner section is start now     */
+    #banner-section {
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center -20px;
+    }
+
+    .banner-badge {
+        top: 26%;
+        left: 58%;
+    }
+    .banner-head{
+        font-size: 2.5rem;
+        margin-bottom: 8px;
+
+    }
+}
+
+
+/*? Medium Device: 576px to 992 px (Optional) */
+@media screen and (min-width:577px) and (max-width:992px) {
+    /* nav section is ok  */
+
+}
+
+
+
+
+/* !Large Device: above 992 px */
+@media screen and (min-width:993px) and (max-width:1200px) {
+    .baner {
+        color: blue;
+    }
 }
